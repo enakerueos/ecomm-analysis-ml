@@ -1,12 +1,18 @@
-# E-commerce Data Analysis & ML Project
+# End-to-End E-commerce Analysis Project 📊
 
-This repository contains two main parts:
-1. **BI Analysis**: RFM Segmentation, Cohort Analysis, and Unit Economics.
-2. **ML Model**: Predicting customer loyalty using CatBoost and Optuna.
+Данный проект объединяет в себе глубокую бизнес-аналитику (BI) и машинное обучение (ML) на основе реальных транзакционных данных.
 
-## Tech Stack
-- **Python**: Pandas, CatBoost, Scikit-learn, Optuna.
-- **Analysis**: RFM, Retention, LTV.
+## 🌟 Основные возможности:
+- **BI Dashboard**: Интерактивная визуализация выручки, среднего чека и топ-товаров.
+- **Customer Analysis**: Когортный анализ и RFM-сегментация.
+- **Machine Learning**: Модель предсказания лояльности клиентов на базе CatBoost.
 
-## How to run
-Download the `.ipynb` files and run them in Google Colab or Jupyter Notebook with the "Online Shop Business" dataset from Kaggle.
+## 🛠 Технологический стек:
+- **Язык**: Python (Pandas, NumPy)
+- **Визуализация**: Plotly, Streamlit
+- **ML**: CatBoost, Scikit-learn, Optuna
+
+## 🚀 Как запустить:
+1. Клонируйте репозиторий.
+2. Установите зависимости: `pip install -r requirements.txt`.
+3. Запустите дашборд: `streamlit run app.py`.
